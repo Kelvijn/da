@@ -1,0 +1,8 @@
+ZUUL-service:
+  ribbon:
+    eureka:
+    enabled: false
+    listOfServers: localhost:8090,localhost:9092,localhost:8766
+server:
+  port: 0
+
